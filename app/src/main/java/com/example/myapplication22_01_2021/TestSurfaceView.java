@@ -12,7 +12,7 @@ import android.view.SurfaceView;
 import androidx.annotation.NonNull;
 
 public class TestSurfaceView extends SurfaceView implements SurfaceHolder.Callback, MyListener {
-    private MyListener radChangeListener;
+  
     private float rad;
     Thread thread;
 
